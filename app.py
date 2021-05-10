@@ -6,9 +6,6 @@ import getpass
 import re
 
 
-username = "baryan.acb@gmail.com"
-password = "A3ciwreiy123"
-
 
 def connect(user, pwd, server='imap.gmail.com'):
 	conn = imaplib.IMAP4_SSL(server)
